@@ -1,0 +1,66 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #080808;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(8px + 2vmin);
+  color: #b19cd9;
+  font-family: monospace;
+}
+
+h2 {
+  font-family: monospace;
+  /* See https://encycolorpedia.com/b666d2 for colour scheme: #d2691e, #da680f, to #c50 with highlights of #c4aead for cat */
+  color: #a76bcf;
+}
+
+.footer {
+  color: #b48395;
+}
+
+.Navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav-bar > * {
+  margin-left: 1em;
+}
+
+li {
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em;
+}
+
+footer {
+  flex-direction: row;
+  text-align: right;
+  background-color: #080808;
+  font-weight: 700;
+}
+
+.text {
+  /* font-size: calc(8px + 2vmin); */
+  float: left;
+  color: #a76bcf;
+  text-align: top;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */

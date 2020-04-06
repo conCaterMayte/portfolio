@@ -1,0 +1,28 @@
+body {
+  margin: 40px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 50px 350px;
+  background-color: #080808;
+  color: #bf94e4;
+}
+.projectBox {
+  background-color: #080808;
+  color: #bf94e4;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  width: 26vw;
+  height: 30vh;
+}
+
+.projectBox:hover {
+  background-color: #50404d;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 150%;
+  width: 26vw;
+  height: 30vh;
+}
